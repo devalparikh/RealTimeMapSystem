@@ -1,5 +1,11 @@
 RealTimeMapSystem
 
+Track locations on a map in real time.
+
+### Demo
+![Demo](https://github.com/devalparikh/RealTimeMapSystem/blob/master/RTBusGIF.gif?raw=true)
+
+
 ### Microservices
 ![System Design](https://github.com/devalparikh/RealTimeMapSystem/blob/master/RTBusSystemDesign.png?raw=true)
 
