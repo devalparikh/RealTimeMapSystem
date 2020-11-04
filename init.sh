@@ -28,16 +28,7 @@ then
 
   # python server console (4)
   tmux new-window -n python-api -t ${SESSION_NAME}
-  tmux send-keys -t ${SESSION_NAME}:4 'python3 busdata1.py' C-m
-
-  # python server console (5)
-  tmux new-window -n python-api -t ${SESSION_NAME}
-  tmux send-keys -t ${SESSION_NAME}:5 'python3 busdata2.py' C-m
-
-  # python server console (6)
-  tmux new-window -n python-api -t ${SESSION_NAME}
-  tmux split-window -v
-  tmux send-keys -t ${SESSION_NAME}:6 'python3 busdata3.py' C-m
+  tmux send-keys -t ${SESSION_NAME}:4 'python3 busdata.py' C-m
 
 
   # Start out on the first window when we attach
